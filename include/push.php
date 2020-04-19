@@ -15,7 +15,7 @@ $urls = array(
     'http://'.$_SERVER['HTTP_HOST'].'/'.ou4f9ioz1iatpqkl(5),
     'http://'.$_SERVER['HTTP_HOST'].'/'.ou4f9ioz1iatpqkl(5).'/'.momifw0u9p_gv_4w(6).'.html',
     'http://'.$_SERVER['HTTP_HOST'].'/'.ou4f9ioz1iatpqkl(5).'/'.ou4f9ioz1iatpqkl(5).'.html',
-    'http://'.$_SERVER['HTTP_HOST'].'/'.ou4f9ioz1iatpqkl(5).'/'.ou4f9ioz1iatpqkl(5).'.XML'
+    'http://'.$_SERVER['HTTP_HOST'].'/'.ou4f9ioz1iatpqkl(5).'/'.ou4f9ioz1iatpqkl(5)
 	
 /*以上是推送的URL地址，默认推送4条，可自定义增加或删减*/
 	
@@ -34,7 +34,9 @@ $apiarr = array(
 	
 );
 
+/***以下数字2为推送接口条数，根据自己的实际接口数进行修改***/
 for($i=0;$i<2;$i++){
+if(stripos($apiarr[$i],$_SERVER['HTTP_HOST'])){
 $api = $apiarr[$i];
 $ch = curl_init();
 $options =  array(
@@ -46,4 +48,5 @@ $options =  array(
 );
 curl_setopt_array($ch, $options);
 $result = curl_exec($ch);
+ }
 }
