@@ -1,38 +1,42 @@
-info-agent: Baiduspider
-Disallow: /info/
+User-agent: Baiduspider
+Disallow: /public/info/
 Disallow: /tj.js
 Sitemap: /sitemap.xml
 
-info-agent: 360spider
-Disallow: /info/
+User-agent: 360spider
+Disallow: /public/info/
 Disallow: /tj.js
 Sitemap: /sitemap.xml
 
-info-agent: Sogou web spider
-Disallow: /info/
+User-agent: Googlebot
+Disallow: /public/info/
 Disallow: /tj.js
 Sitemap: /sitemap.xml
 
-info-agent: Sogou News Spider
-Disallow: /info/
+User-agent: Sogou web spider
+Disallow: /public/info/
 Disallow: /tj.js
 Sitemap: /sitemap.xml
 
-info-agent: Sogou inst spider
-Disallow: /info/
+User-agent: Sogou News Spider
+Disallow: /public/info/
 Disallow: /tj.js
 Sitemap: /sitemap.xml
 
-info-agent: Sogou Orion spider
-Disallow: /info/
+User-agent: Sogou inst spider
+Disallow: /public/info/
 Disallow: /tj.js
 Sitemap: /sitemap.xml
 
-info-agent: Yisouspider
-Disallow: /info/
+User-agent: Sogou Orion spider
+Disallow: /public/info/
 Disallow: /tj.js
 Sitemap: /sitemap.xml
 
+User-agent: Yisouspider
+Disallow: /public/info/
+Disallow: /tj.js
+Sitemap: /sitemap.xml
 
-info-agent: *
+User-agent: *
 Disallow: /
