@@ -49,7 +49,7 @@
                     public/googlespider-open-close.txt 谷歌蜘蛛来访缓存开启与关闭
                     public/otherspider-open-close.txt  其他蜘蛛（包括人为访问）来访缓存开启与关闭
                     
-                    use/ 目录下为客户资料，随机获取客户资料
+                    public/info/ 目录下为客户资料，随机获取客户资料
                                               webname      网站标题，不限文件个数，随便命名，随机调用，一行一个，每个文档控制在300K以内。
                                               keywords     客户关键词，不限文件个数，随便命名，随机调用，一行一个，每个文档控制在300K以内。
                                               description  网站描述
@@ -66,7 +66,7 @@
                           url.txt           全站URL重写规则设置
                           side.txt          干扰字符设置
 
-                    friendlink/ ---->   友情链接蜘蛛池，放入需要收录的URL地址，不限文件个数，随便命名，随机调用，一行一个，每个文档控制在300K以内。     
+                    public/friendlink/ ---->   友情链接蜘蛛池，放入需要收录的URL地址，不限文件个数，随便命名，随机调用，一行一个，每个文档控制在300K以内。     
 
 
                                                          SEO站长：十年专注SEO  QQ:1662383315
